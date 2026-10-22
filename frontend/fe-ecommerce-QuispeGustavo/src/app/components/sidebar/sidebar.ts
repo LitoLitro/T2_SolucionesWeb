@@ -58,14 +58,14 @@ position: absolute;
 top: 1rem;
 left: 1rem;
 z-index: 100;
-background: #0f172a;
+background: #d44ed4;
 color: white;
 border: none;
 font-size: 1.5rem;
 padding: 0.4rem 0.7rem;
 border-radius: 0.375rem;
 cursor: pointer;
-box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+box-shadow: 0 2px 5px rgba(221, 48, 48, 0.2);
 }
 /* Botón cerrar dentro del sidebar (solo móvil) */
 .close-sidebar-btn {
@@ -84,7 +84,7 @@ top: 0;
 left: 0;
 width: 100vw;
 height: 100vh;
-background: rgba(0, 0, 0, 0.5);
+background: rgba(212, 86, 86, 0.5);
 z-index: 1000;
 opacity: 0;
 transition: opacity 0.3s ease;
@@ -92,19 +92,19 @@ pointer-events: none;
 }
 .sidebar {
 width: 260px;
-background: #0f172a;
+background: #562075;
 color: white;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-box-shadow: 4px 0 10px rgba(0,0,0,0.05);
+box-shadow: 4px 0 10px rgba(160, 44, 44, 0.05);
 transition: transform 0.3s ease-in-out;
 z-index: 1001;
 }
 .sidebar-header {
 padding: 1.5rem;
-background: #1e293b;
-border-bottom: 1px solid #334155;
+background: #6f700c;
+border-bottom: 1px solid #ccdf21;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -123,13 +123,13 @@ display: flex;
 align-items: center;
 gap: 0.75rem;
 padding: 0.75rem 1.5rem;
-color: #94a3b8;
+color: #e6e9ec;
 text-decoration: none;
 font-weight: 500;
 transition: all 0.2s ease;
 }
 .menu-item:hover, .menu-item.active {
-background: #1e293b;
+background: #802297;
 color: #ffffff;
 border-left: 4px solid #6366f1;
 }

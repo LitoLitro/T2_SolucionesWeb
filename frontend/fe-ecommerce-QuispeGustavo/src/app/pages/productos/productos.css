@@ -206,7 +206,16 @@
   font-weight: 700;
   white-space: nowrap;
 }
-
+.product-marca {
+  color: #0f172a;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.product-barras {
+  color: #0f172a;
+  font-weight: 700;
+  white-space: nowrap;
+}
 /* STOCK */
 
 .stock-badge {
