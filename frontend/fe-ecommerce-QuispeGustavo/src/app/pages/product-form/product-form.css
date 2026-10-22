@@ -1,0 +1,18 @@
+.error-msg {
+color: #ef4444;
+font-size: 0.75rem;
+margin-top: 0.25rem;
+font-weight: 500;
+}
+.form-control-modern.ng-invalid.ng-touched {
+border-color: #ef4444;
+}
+.form-control-modern.ng-invalid.ng-touched:focus {
+box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+/* Botón deshabilitado cuando el formulario no es válido */
+.btn-submit:disabled {
+background: #94a3b8;
+cursor: not-allowed;
+opacity: 0.7;
+}

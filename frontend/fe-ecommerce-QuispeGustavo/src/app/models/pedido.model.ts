@@ -1,0 +1,31 @@
+export interface ProductoDetalle {
+  id: number;
+  nombre: string;
+  categoria: string;
+  precio: number;
+  stock: number;
+}
+
+export interface DetallePedidoItem {
+  id?: number;
+  cantidad: number;
+  precioUnitario: number;
+  subtotal: number;
+  producto: ProductoDetalle;
+}
+
+export interface PedidoItem {
+  productoId: number;
+  cantidad: number;
+}
+
+export type PedidoItemEnvio = PedidoItem;
+
+export interface Pedido {
+  id?: number;
+  cliente: string;
+  montoTotal?: number;
+  fechaCompra?: string;
+  items?: PedidoItemEnvio[];
+  detalles?: DetallePedidoItem[];
+}
